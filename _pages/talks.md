@@ -3,6 +3,7 @@ layout: page
 permalink: /talks/
 title: talks
 description: where you might have seen me ramble on  
+nav: true
 nav_order: 7
 ---
 
