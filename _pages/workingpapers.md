@@ -7,9 +7,9 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/workingpapers.md -->
 <div class="working papers">
 
-{% bibliography working%}
+{% bibliography -f working -q %}
 
 </div>
