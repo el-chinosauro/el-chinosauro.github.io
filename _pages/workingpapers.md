@@ -2,7 +2,7 @@
 layout: page
 permalink: /working papers/
 title: working papers
-description: 
+description: articles looking for a home
 nav: true
 nav_order: 2
 ---

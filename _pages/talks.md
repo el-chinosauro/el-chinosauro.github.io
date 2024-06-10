@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: talks
-description: conferences and invited seminars
+description: where you might have seen me ramble on  
 nav_order: 7
 ---
 
