@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: work in progress and articles looking to be written
+description: articles looking to grow up 
 nav: true
 nav_order: 3
 display_categories: [work, fun]
