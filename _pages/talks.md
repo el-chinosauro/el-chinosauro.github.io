@@ -9,15 +9,15 @@ nav_order: 7
 
 ##### 2024 
 
-* XXV BIOECON Conference - Cambdridge (GBR), scheduled
-* 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL), scheduled
-* Annual Workshop of the Nordic Association of Environmental and Resource Economists (NAERE) - Bergen (NOR), withdrawn
+* XXV BIOECON Conference - Cambdridge (GBR)
+* 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL)
+* Annual Workshop of the Nordic Association of Environmental and Resource Economists (NAERE) - Bergen (NOR)
 * 14th TSE Conference on the Economics of Energy and Climate - Toulous (FRA), withdrawn
 * 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
-* Annual SEEDS Conference - Marzabotto (ITA), withdrawn
+* Annual SEEDS Conference - Marzabotto (ITA)
 * XII Giorgio Rota Award Conference - Torino (ITA)
 * 1st Workshop on Mapping the Effects of Environmental Policies - Hamburg (GER)
-* 12th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Pescara (ITA), withdrawn
+* 12th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Pescara (ITA)
 * University of Bologna (ITA)
 * ifo Institut - Munich (GER)
 * University of Exeter (GBR)
@@ -30,7 +30,7 @@ nav_order: 7
 * 28th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Limassol (CYP)
 * Annual Conference of the Association of Environmental and Resource Economists (AERE) - Portland, ME (USA)
 * envecon2023 - London (GBR)
-* 11th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Napoli (ITA), withdrawn
+* 11th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Napoli (ITA)
 
 ##### 2022 
 
