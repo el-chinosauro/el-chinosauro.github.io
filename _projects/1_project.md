@@ -1,6 +1,6 @@
 ---
 layout: page
-title: More than Just Carbon
+title: More Than Just Carbon
 description: The Socioeconomic Impact of Large-scale Tree Planting
 img: assets/img/morethan.png
 importance: 1

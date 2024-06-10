@@ -12,7 +12,7 @@ nav_order: 7
 * XXV BIOECON Conference - Cambdridge (GBR)
 * 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL)
 * Annual Workshop of the Nordic Association of Environmental and Resource Economists (NAERE) - Bergen (NOR)
-* 14th TSE Conference on the Economics of Energy and Climate - Toulous (FRA), withdrawn
+* 14th TSE Conference on the Economics of Energy and Climate - Toulouse (FRA)
 * 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
 * Annual SEEDS Conference - Marzabotto (ITA)
 * XII Giorgio Rota Award Conference - Torino (ITA)
@@ -38,7 +38,7 @@ nav_order: 7
 * SASCA PhD Conference - Venezia (ITA)
 * LSE Work in Progress Seminar
 
-##### 2021 
+##### **2021**
 
 * LSE Geography Departmental Seminar 
 * UniFi Development Economics and Local Systems (DELoS) Seminar - Firenze (ITA)
