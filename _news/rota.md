@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-05-15 15:59:00-0400
-title: XII Giorgio Rota Best Paper Award :rocket:
+title: XII Giorgio Rota Best Paper Award
 inline: false
 related_posts: false
 
