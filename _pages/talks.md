@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: post
 permalink: /talks/
-title: conferences and invited talks
-description: some public engagement.
-nav: true
+title: talks
+description: conferences and invited seminars
 nav_order: 7
 ---
 
