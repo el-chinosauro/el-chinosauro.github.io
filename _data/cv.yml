@@ -14,14 +14,12 @@
     - title: Postdoctoral Research Officer
       institution: Grantham Research Institute on Climate Change and the Environment
       year: 2023-
-      description:
-        - The Economics of Biodiversity Additionality (BIOADD)
+      description: The Economics of Biodiversity Additionality (BIOADD)
 
     - title: Visiting Research Fellow
       institution: London School of Economics and Political Science
       year: 2023-
-      description:
-        - Department of Geography and the Environment
+      description: Department of Geography and the Environment
 
 
 
@@ -31,25 +29,20 @@
     - title: PhD in Environmental Economics
       institution: London School of Economics and Political Science
       year: 2023
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+      description: _Awarded without corrections_
+
     - title: MSc in Environmental Economics and Climate Change
       institution: London School of Economics and Political Science
       year: 2017
-      description:
-        - Description 1.
-        - Description 2.
+    
+    - title: Postgraduate Exchange Coursework Semester
+      institution: University of Sydney
+      year: 2015
+
     - title: BSc in Economics and Trade
       institution: University of Florence
       year: 2014
-      description:
-        - Description 1.
-        - Description 2.
+
 
 - title: Honours and Awards
   type: time_table
