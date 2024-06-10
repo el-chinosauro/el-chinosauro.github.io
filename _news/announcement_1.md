@@ -1,12 +1,14 @@
 ---
 layout: post
 date: 2024-05-15 15:59:00-0400
-title: Carbon Pricing with Regressive Co-Benefits wins the XII Giorgio Rota Best Paper Award
+title: XII Giorgio Rota Best Paper Award :rocket:
 inline: false
 related_posts: false
 
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Happy to announce that my 4th paper out of the PhD, "Carbon Pricing with Regressive Co-Benefits: Evidence from British Columbia's Carbon Tax" has won the XII Giorgio Rota Best Paper Award for Young Researchers, promoted by the Centro Einaudi and Fondazione CRT.
 
 ---
+
+More details about the prize and the related conference [here](https://www.centroeinaudi.it/notizie-in-evidenza/7070-climate-economics-and-its-knowledge-the-conference-2.html).
