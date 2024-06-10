@@ -318,9 +318,10 @@ ul.task-list input[type="checkbox"] {
 .navbar-toggler {
   .icon-bar {
     display: block;
-    width: 22px;
+    width: 16px;
     height: 2px;
     background-color: var(--global-text-color);
+    color: rgb(192,192,192);
     border-radius: 1px;
     margin-bottom: 4px;
     transition: all 0.2s;
@@ -373,7 +374,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 0rem;
 
     a {
       i::before {
