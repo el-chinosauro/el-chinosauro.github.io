@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-06-05 15:59:00-0400
-title: 1st GSSI ECCD Workshop
+title: 1st GSSI Environment, Climate Change and Disasters Workshop
 inline: false
 related_posts: false
 
