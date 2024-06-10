@@ -15,6 +15,8 @@ nav_order: 6
     - Student Evaluation: 4.4/5
 
 
+
+
 * **Autumn Term 2022: [GY476 Applied Geographical Information Systems](https://www.lse.ac.uk/resources/calendar2021-2022/courseGuides/GY/2021_GY476.htm) (Postgraduate)**
 
     - Core module for MSc Geographic Data Science
