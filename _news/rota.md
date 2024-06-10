@@ -7,7 +7,7 @@ related_posts: false
 
 ---
 
-Happy to announce that my 4th paper out of the PhD, "Carbon Pricing with Regressive Co-Benefits: Evidence from British Columbia's Carbon Tax" has won the XII Giorgio Rota Best Paper Award for Young Researchers, promoted by the Centro Einaudi and Fondazione CRT.
+Honoured to announce that my paper "Carbon Pricing with Regressive Co-Benefits: Evidence from British Columbia's Carbon Tax" has won the XII Giorgio Rota Best Paper Award for Young Researchers, promoted by the Centro Einaudi and Fondazione CRT.
 
 ---
 
