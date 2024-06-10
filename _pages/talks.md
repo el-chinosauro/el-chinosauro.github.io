@@ -7,11 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-
-
-{% tabs something-else %}
-
-{% tab something-else 2024 %}
+##### 2024
 
 * XXV BIOECON Conference - Cambdridge (GBR), scheduled
 * 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL), scheduled
@@ -26,9 +22,7 @@ nav_order: 7
 * ifo Institut - Munich (GER)
 * University of Exeter (GBR)
 
-{% endtab %}
-
-{% tab something-else 2023 %}
+##### 2023
 
 * Grantham Research Institute Empirical Seminar
 * Climate Economics Chair Annual Conference at Paris Dauphine/PSL - Paris (FRA)
@@ -38,46 +32,32 @@ nav_order: 7
 * envecon2023 - London (GBR)
 * 11th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Napoli (ITA), withdrawn
 
-{% endtab %}
-
-{% tab something-else 2022 %}
+##### 2022
 
 * LSE Geography Departmental Seminar 
 * SASCA PhD Conference - Venezia (ITA)
 * LSE Work in Progress Seminar
 
-{% endtab %}
-
-{% tab something-else 2021 %}
+##### 2021
 
 * LSE Geography Departmental Seminar 
 * UniFi Development Economics and Local Systems (DELoS) Seminar - Firenze (ITA)
 
-{% endtab %}
-
-{% tab something-else 2020 %}
+##### 2020
 
 * INRAE SWEEET Seminar (with B. Groom and C.Palmer) - Paris (FRA)
 * LSE Geography Departmental Seminar 
 * GRI Policy Evaluation Seminar
 
-{% endtab %}
-
-{% tab something-else 2019 %}
+##### 2019
 
 * LSE Geography Departmental Seminar 
 * GRI Policy Evaluation Seminar
 * LEEPin Conference, University of Exeter - Exeter (GBR)
 
-{% endtab %}
-
-{% tab something-else 2018 %}
+##### 2018
 
 * LSE Geography Departmental Seminar 
 * LSE South East Asia Centre 
 * XX BIOECON Conference - Cambridge (GBR)
 
-{% endtab %}
-
-
-{% endtabs %}
