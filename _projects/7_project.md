@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: Biodiversity Additionality in Indonesia
+description: Forest Responses to Policy Layering
+img: assets/img/idn_wp3.png
 importance: 1
 category: work
 related_publications: true
