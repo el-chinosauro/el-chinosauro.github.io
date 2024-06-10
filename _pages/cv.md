@@ -4,6 +4,6 @@ permalink: /cv/
 title: curriculum vitae
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf
+cv_pdf: lorenzo_cv_2024.pdf
 description: 
 ---
