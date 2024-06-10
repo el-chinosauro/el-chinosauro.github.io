@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: page
 permalink: /talks/
 title: talks
 description: conferences and invited seminars
 nav_order: 7
 ---
+
+
 
 {% tabs something-else %}
 
