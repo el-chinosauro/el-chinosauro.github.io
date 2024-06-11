@@ -5,7 +5,7 @@ description: The Socioeconomic Impact of Large-scale Tree Planting
 img: assets/img/morethan.png
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 ##### Abstract
