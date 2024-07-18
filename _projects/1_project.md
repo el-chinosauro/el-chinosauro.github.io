@@ -2,7 +2,7 @@
 layout: page
 title: More Than Just Carbon
 description: The Socioeconomic Impact of Large-scale Tree Planting (with Jeff Pagel)
-img: assets/img/morethan.png
+img: assets/img/bara_year_treat_diss.png
 importance: 1
 category: work
 related_publications: false
