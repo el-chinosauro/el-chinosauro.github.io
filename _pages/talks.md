@@ -9,7 +9,7 @@ nav_order: 7
 
 ##### **2024** 
 
-* XXV BIOECON Conference - Cambdridge (GBR)
+* XXV BIOECON Conference - Cambridge (GBR)
 * 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL)
 * Annual Workshop of the Nordic Association of Environmental and Resource Economists (NAERE) - Bergen (NOR)
 * 14th TSE Conference on the Economics of Energy and Climate - Toulouse (FRA)
