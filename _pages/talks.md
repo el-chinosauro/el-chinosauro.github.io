@@ -9,15 +9,12 @@ nav_order: 7
 
 ##### **2024** 
 
+* Nordic Environmental and Resource Economics Seminar (NERES) - online, invited
 * XXV BIOECON Conference - Cambridge (GBR)
 * 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL)
-* Annual Workshop of the Nordic Association of Environmental and Resource Economists (NAERE) - Bergen (NOR)
-* 14th TSE Conference on the Economics of Energy and Climate - Toulouse (FRA)
 * 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
-* Annual SEEDS Conference - Marzabotto (ITA)
 * XII Giorgio Rota Award Conference - Torino (ITA)
-* 1st Workshop on Mapping the Effects of Environmental Policies - Hamburg (GER)
-* 12th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Pescara (ITA)
+* 1st Workshop on Mapping the Effects of Environmental Policies - Hamburg (GER), invited
 * University of Bologna (ITA)
 * ifo Institut - Munich (GER)
 * University of Exeter (GBR)
