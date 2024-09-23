@@ -9,12 +9,12 @@ nav_order: 7
 
 ##### **2024** 
 
+* Monash Enviromental Economics Workshop 2024 - Melbourne (AUS)
 * Nordic Environmental and Resource Economics Seminar (NERES) - online, invited
 * XXV BIOECON Conference - Cambridge (GBR)
-* 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Leuven (BEL)
+* 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - online 
 * 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
 * XII Giorgio Rota Award Conference - Torino (ITA)
-* 1st Workshop on Mapping the Effects of Environmental Policies - Hamburg (GER), invited
 * University of Bologna (ITA)
 * ifo Institut - Munich (GER)
 * University of Exeter (GBR)
@@ -27,7 +27,6 @@ nav_order: 7
 * 28th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Limassol (CYP)
 * Annual Conference of the Association of Environmental and Resource Economists (AERE) - Portland, ME (USA)
 * envecon2023 - London (GBR)
-* 11th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Napoli (ITA)
 
 ##### **2022** 
 
