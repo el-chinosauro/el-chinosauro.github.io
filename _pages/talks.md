@@ -9,15 +9,17 @@ nav_order: 7
 
 ##### **2024** 
 
-* Monash Enviromental Economics Workshop 2024 - Melbourne (AUS)
-* Nordic Environmental and Resource Economics Seminar (NERES) - online, invited
-* XXV BIOECON Conference - Cambridge (GBR)
-* 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - online 
-* 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
-* XII Giorgio Rota Award Conference - Torino (ITA)
-* University of Bologna (ITA)
-* ifo Institut - Munich (GER)
-* University of Exeter (GBR)
+* 28-29 Nov: 10th EUI FSR Climate Annual Conference - Fiesole (ITA)
+* 21-22 Nov: Monash Enviromental Economics Workshop 2024 - Melbourne (AUS)
+* 5 Nov: University of Sydney Economics Brown Bag Seminar - Sydney (AUS), invited
+* 7 Oct: Nordic Environmental and Resource Economics Seminar (NERES) - online, invited
+* 4-6 Sep: XXV BIOECON Conference - Cambridge (GBR)
+* 1-4 Jul: 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - online 
+* 5-6 Jun: 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
+* 15 May: XII Giorgio Rota Award Conference - Torino (ITA)
+* 29 Jan: University of Bologna (ITA)
+* 24 Jan: ifo Institut - Munich (GER)
+* 17 Jan: University of Exeter (GBR)
 
 ##### **2023**
 
