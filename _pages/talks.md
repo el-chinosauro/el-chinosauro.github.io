@@ -7,6 +7,11 @@ nav: true
 nav_order: 7
 ---
 
+##### **2025** 
+
+* 20-21 Feb: 13th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Rome (ITA)
+* 15 Jan: IE University - Madrid (ESP), invited
+
 ##### **2024** 
 
 * 28-29 Nov: 10th EUI FSR Climate Annual Conference - Fiesole (ITA)
@@ -16,10 +21,10 @@ nav_order: 7
 * 4-6 Sep: XXV BIOECON Conference - Cambridge (GBR)
 * 1-4 Jul: 29th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - online 
 * 5-6 Jun: 1st Early Career Workshop on the Environment, Climate Change and Disasters - Gran Sasso Science Institute (ITA)
-* 15 May: XII Giorgio Rota Award Conference - Torino (ITA)
-* 29 Jan: University of Bologna (ITA)
-* 24 Jan: ifo Institut - Munich (GER)
-* 17 Jan: University of Exeter (GBR)
+* 15 May: XII Giorgio Rota Award Conference - Torino (ITA), invited (winner, 1st prize)
+* 29 Jan: University of Bologna (ITA), invited
+* 24 Jan: ifo Institut - Munich (GER), invited
+* 17 Jan: University of Exeter (GBR), invited
 
 ##### **2023**
 
