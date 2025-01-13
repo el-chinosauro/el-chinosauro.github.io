@@ -8,8 +8,8 @@ nav_order: 7
 ---
 
 ##### **2025** 
-
-* 20-21 Feb: 13th Annual Conference of the Italian Association of Environmental and Resource Economists (IAERE) - Rome (ITA)
+ 
+* 20-21 Feb: 13th Annual Conference of the IAERE - Rome (ITA)
 * 15 Jan: IE University - Madrid (ESP), invited
 
 ##### **2024** 
