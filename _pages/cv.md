@@ -4,5 +4,7 @@ permalink: /cv/
 title: curriculum vitae
 nav: true
 nav_order: 4
-cv_pdf: lorenzo_cv.pdfbanner_image: sicilia.jpegdescription: been there, done that
+cv_pdf: lorenzo_cv.pdf
+banner_image: sicilia.jpeg
+description: been there, done that
 ---
