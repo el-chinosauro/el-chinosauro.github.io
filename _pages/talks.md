@@ -3,12 +3,25 @@ layout: page
 permalink: /talks/
 title: talks
 description: where you might have seen me ramble on  
+banner_image: sicilia.jpeg
 nav: true
 nav_order: 7
 ---
 
+##### **2026** _(scheduled)_
+
+* Jun: World Congress of Environmental and Resource Economists - Lisbon (PRT)
+* Oct: International Workshop on Biodiversity Economics - Paris (FRA)
+* Mar: IE University - Madrid (ESP), invited
+* Feb: 14th Annual Conference of the IAERE - Trento (ITA)
+* Feb: University of Oxford (GBR), invited
+
 ##### **2025** 
- 
+
+* Oct: 2nd Early Career Workshop in Applied Environmental and Climate Economics - Milan (ITA)
+* Nov: RES Doctoral Training Programme PhD Masterclass: Economics of Biodiversity - online, invited
+* Sep: XXVI BIOECON Conference - Cambridge (GBR)
+* Jun: 30th Annual Conference of the European Association of Environmental and Resource Economists (EAERE) - Bergen (NOR)
 * 20-21 Feb: 13th Annual Conference of the IAERE - Rome (ITA)
 * 15 Jan: IE University - Madrid (ESP), invited
 

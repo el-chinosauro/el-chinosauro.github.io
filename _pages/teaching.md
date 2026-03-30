@@ -3,11 +3,23 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: drops in the ocean
+banner_image: sicilia.jpeg
 nav: true
 nav_order: 6
 ---
 
-#### Graduate Teaching Assistant
+#### IE University
+
+<br>
+
+* **Fall Semester 2024–present: Public Economics (Undergraduate)**
+
+    - Core module for BSc Applied Mathematics, BSc Economics, and BSc International Relations
+    - _Topics_ – externalities and market failure; public goods; political economy; cost-benefit analysis; social insurance; inequality and redistribution; taxation.
+
+<br>
+
+#### Graduate Teaching Assistant (LSE)
 
 <br>
 

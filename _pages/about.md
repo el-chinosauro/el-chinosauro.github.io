@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: 
+banner_image: sicilia.jpeg
 
 profile:
   align: right
