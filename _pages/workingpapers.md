@@ -3,6 +3,7 @@ layout: page
 permalink: /working papers/
 title: working papers
 description: articles looking for a home
+banner_image: sicilia.jpeg
 nav: true
 nav_order: 2
 ---
