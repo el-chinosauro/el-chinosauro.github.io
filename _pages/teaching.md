@@ -8,14 +8,14 @@ nav: true
 nav_order: 6
 ---
 
-#### IE University
+#### Lecturer (IE University)
 
 <br>
 
-* **Fall Semester 2024–present: Public Economics (Undergraduate)**
+* **Fall Semester 2025–present: Public Economics (Undergraduate)**
 
     - Core module for BSc Applied Mathematics, BSc Economics, and BSc International Relations
-    - _Topics_ – externalities and market failure; public goods; political economy; cost-benefit analysis; social insurance; inequality and redistribution; taxation.
+    - _Topics_ – externalities and market failures; public goods; political economy; cost-benefit analysis; social insurance; inequality and redistribution; taxation.
 
 <br>
 

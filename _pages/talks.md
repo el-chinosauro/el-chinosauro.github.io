@@ -8,7 +8,7 @@ nav: true
 nav_order: 7
 ---
 
-##### **2026** _(scheduled)_
+##### **2026** _(including scheduled)_
 
 * Jun: World Congress of Environmental and Resource Economists - Lisbon (PRT)
 * Oct: International Workshop on Biodiversity Economics - Paris (FRA)
