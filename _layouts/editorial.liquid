@@ -1,48 +1,81 @@
 <!doctype html>
 <html lang="{{ site.lang | default: 'en' }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>{% unless page.permalink == '/' %}{{ page.title | escape }} · {% endunless %}Lorenzo Sileci</title>
-  <meta name="description" content="{{ site.description | strip | escape }}">
-  <link rel="canonical" href="{{ page.canonical_path | default: page.url | absolute_url }}">
-  <meta property="og:title" content="Lorenzo Sileci{% unless page.permalink == '/' %} · {{ page.title | escape }}{% endunless %}">
-  <meta property="og:description" content="{{ site.description | strip | escape }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.canonical_path | default: page.url | absolute_url }}">
-  <meta property="og:image" content="{{ '/assets/img/identity/portrait.webp' | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/editorial.css' | relative_url }}">
-  <script>try{if(localStorage.getItem('lorenzo-theme')==='dark')document.documentElement.classList.add('dark')}catch(e){}</script>
-  <script src="{{ '/assets/js/editorial.js' | relative_url }}" defer></script>
-  {% if page.redirect %}<meta http-equiv="refresh" content="3;url={{ '/' | relative_url }}">{% endif %}
-</head>
-<body id="top">
-  <a class="skip" href="#main">Skip to content</a>
-  {% assign active = page.nav_group | default: 'home' %}
-  <header class="site-header">
-    <button class="menu-button" aria-controls="main-nav" aria-expanded="false">menu <span aria-hidden="true">+</span></button>
-    <nav id="main-nav" aria-label="Main navigation">
-      {% for link in site.data.navigation %}<a href="{{ link.url | relative_url }}"{% if active == link.key %} aria-current="page"{% endif %}>{{ link.title }}</a>{% endfor %}
-      <button class="theme-button" aria-label="Switch to dark theme">◐</button>
-    </nav>
-  </header>
-  <main id="main">
-    <section class="view" id="{{ page.section_id | default: active }}">
-      {% unless page.permalink == '/' %}
-        <header class="page-heading map-heading">
-          <div class="page-map" aria-hidden="true">{% include editorial/map.liquid %}</div>
-          <h1>{% if page.editorial_key %}current research{% else %}{{ page.title | downcase }}{% endif %}</h1>
-          <p class="subtitle">{% if page.editorial_key %}{% if page.research_group == 'working' %}articles looking for a home{% else %}articles looking to grow up and look for a home{% endif %}{% else %}{{ page.description }}{% endif %}</p>
-        </header>
-      {% endunless %}
-      {% if page.layout == 'editorial' %}<div class="prose">{{ content }}</div>{% else %}{{ content }}{% endif %}
-    </section>
-  </main>
-  {% include editorial/footer.liquid %}
-  <button class="back-to-top" aria-label="Back to top" hidden>↑</button>
-  <dialog id="figure-dialog" aria-labelledby="figure-title">
-    <button class="close-dialog" aria-label="Close figure">Close ×</button>
-    <h2 id="figure-title"></h2><img id="full-figure" alt="">
-  </dialog>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+      {% unless page.permalink == '/' %}{{ page.title | escape }} · {% endunless %}
+      Lorenzo Sileci
+    </title>
+    <meta name="description" content="{{ site.description | strip | escape }}">
+    <link rel="canonical" href="{{ page.canonical_path | default: page.url | absolute_url }}">
+    <meta property="og:title" content="Lorenzo Sileci{% unless page.permalink == '/' %} · {{ page.title | escape }}{% endunless %}">
+    <meta property="og:description" content="{{ site.description | strip | escape }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.canonical_path | default: page.url | absolute_url }}">
+    <meta property="og:image" content="{{ '/assets/img/identity/portrait.webp' | absolute_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/editorial.css' | relative_url }}">
+    <script>
+      try {
+        if (localStorage.getItem('lorenzo-theme') === 'dark') document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+    <script src="{{ '/assets/js/editorial.js' | relative_url }}" defer></script>
+    {% if page.redirect %}<meta http-equiv="refresh" content="3;url={{ '/' | relative_url }}">{% endif %}
+  </head>
+  <body id="top">
+    <a class="skip" href="#main">Skip to content</a>
+    {% assign active = page.nav_group | default: 'home' %}
+    <header class="site-header">
+      <button class="menu-button" aria-controls="main-nav" aria-expanded="false">menu <span aria-hidden="true">+</span></button>
+      <nav id="main-nav" aria-label="Main navigation">
+        {% for link in site.data.navigation -%}
+          <a
+            href="{{ link.url | relative_url }}"
+            {% if active == link.key %}
+              aria-current="page"
+            {% endif %}
+          >
+            {{- link.title -}}
+          </a>
+        {%- endfor %}
+        <button class="theme-button" aria-label="Switch to dark theme">◐</button>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="view" id="{{ page.section_id | default: active }}">
+        {% unless page.permalink == '/' %}
+          <header class="page-heading map-heading">
+            <div class="page-map" aria-hidden="true">{% include editorial/map.liquid %}</div>
+            <h1>
+              {% if page.editorial_key %}current research{% else %}{{ page.title | downcase }}{% endif %}
+            </h1>
+            <p class="subtitle">
+              {% if page.editorial_key -%}
+                {%- if page.research_group == 'working' -%}
+                  articles looking for a home
+                {%- else -%}
+                  articles looking to grow up and look for a home
+                {%- endif -%}
+              {%- else -%}
+                {{- page.description -}}
+              {%- endif %}
+            </p>
+          </header>
+        {% endunless %}
+        {% if page.layout == 'editorial' %}
+          <div class="prose">{{ content }}</div>
+        {% else -%}
+          {{- content -}}
+        {%- endif %}
+      </section>
+    </main>
+    {% include editorial/footer.liquid %}
+    <button class="back-to-top" aria-label="Back to top" hidden>↑</button>
+    <dialog id="figure-dialog" aria-labelledby="figure-title">
+      <button class="close-dialog" aria-label="Close figure">Close ×</button>
+      <h2 id="figure-title"></h2>
+      <img id="full-figure" alt="">
+    </dialog>
+  </body>
 </html>

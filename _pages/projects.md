@@ -7,7 +7,7 @@ banner_image: sicilia.jpeg
 nav: false
 nav_order: 2
 display_categories:
-- work
+  - work
 horizontal: false
 nav_group: current-research
 research_group: wip

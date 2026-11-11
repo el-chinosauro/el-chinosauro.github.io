@@ -10,7 +10,8 @@ jobs:
     # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Match deployment so the pinned Ruby version is available here too.
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -29,6 +30,10 @@ jobs:
               "giscus.repo": "${{ github.repository }}",
               "baseurl": ""
             }
+      - name: Install ImageMagick 🖼️
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libwebp-dev
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
@@ -42,5 +47,5 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
-          # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          # Resolve /assets/... and other root-relative paths against the built site.
+          args: --offline --base '${{ github.workspace }}/_site' --verbose --no-progress '_site/**/*.html'

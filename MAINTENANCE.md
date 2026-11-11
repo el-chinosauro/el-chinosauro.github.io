@@ -113,7 +113,7 @@ The geological background is a static, unlabelled map from Regione Toscana; it d
 
 ## Publish with GitHub Desktop
 
-The redesign is on the local **`redesign-2026`** branch. Nothing has been pushed or published by this work.
+The redesign was prepared on **`redesign-2026`**; deployment runs from **`master`**. For the initial merge, or later work done on a separate branch, use the steps below. When changes are already on `master`, commit and push them directly; no further branch merge is needed.
 
 The final local production build and the deployment’s PurgeCSS step passed on 11 November 2026. Browser checks covered all main pages at 320, 390, 768, 1024 and 1440 px, the preserved working-papers and project URLs, mobile navigation, dark-mode persistence, all ten figure enlargements and keyboard focus, the November CV download, and footer alignment. No horizontal overflow or JavaScript exceptions were found. The custom-domain file matches the existing published `www.lorenzosileci.com` value. GitHub Actions will run its own build when you publish.
 
@@ -124,6 +124,21 @@ The final local production build and the deployment’s PurgeCSS step passed on 
 5. Wait for that Action to succeed, then check **https://www.lorenzosileci.com/**.
 
 For extra review before merging, open a pull request from the redesign branch. The existing pull-request workflow builds the site but skips publication. No hosting, DNS, CNAME or deployment-branch change is required.
+
+### Deployment troubleshooting
+
+The deployment and post-deployment link-check workflows use **Ubuntu 22.04 with Ruby 3.2.2**. Keep the runner image pinned while using that exact Ruby version. On 11 November 2026, the first redesigned-site deployment failed during Ruby setup because `ubuntu-latest` had moved to Ubuntu 26.04, which does not supply Ruby 3.2.2. The official Ruby release includes a prebuilt Ubuntu 22.04 package, and both workflows now select that image explicitly. Both install ImageMagick before building the site.
+
+The formatting workflow installs the versions in `package-lock.json` using `npm ci`. Check the same formatting locally with:
+
+```sh
+npm ci
+npx prettier . --check
+```
+
+To apply the formatter’s whitespace and layout changes, use `npx prettier . --write`, then review and commit the resulting files. Formatting and link checks run separately from the deployment job; inspect the failed step in the relevant workflow to distinguish them.
+
+The source link checker excludes loopback preview addresses and archived news, which is not published. Its one URL exception is the Unsplash homepage: the page is available in a browser but returned HTTP 401 to the automated checker. The optional JSON-resume example in the upstream documentation is shown as a filename rather than a link to a missing local file. The after-deployment workflow separately checks links in the generated HTML using `_site` as the root directory. The retained demo redirect post links to W3C’s public dummy PDF instead of a missing bundled example PDF.
 
 The AJAE entry uses the final journal citation: **2026, volume 108(1), pages 254–284**, DOI **10.1111/ajae.12530**, verified against [Wiley’s publication record](https://onlinelibrary.wiley.com/doi/10.1111/ajae.12530). Its first online publication date was 9 February 2025. The internal key `palmer_2024` is intentionally unchanged so existing figure metadata and homepage selections continue to work. Both homepage and publications display the corrected year and DOI link.
 

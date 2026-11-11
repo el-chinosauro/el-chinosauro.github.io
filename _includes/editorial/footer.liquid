@@ -1,10 +1,20 @@
 <footer class="site-footer">
-  <div><a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a><p>IE University · Madrid</p></div>
+  <div>
+    <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <p>IE University · Madrid</p>
+  </div>
   <nav aria-label="Professional links">
     {% assign footer_icons = 'google-scholar,orcid,github,bluesky,x' | split: ',' %}
-    {% for icon in footer_icons %}{% assign profile = site.data.profile_links | where: 'icon', icon | first %}<a href="{{ profile.url | escape }}" target="_blank" rel="noopener">{{ profile.label | escape }}</a>{% endfor %}
+    {% for icon in footer_icons -%}
+      {%- assign profile = site.data.profile_links | where: 'icon', icon | first -%}
+      <a href="{{ profile.url | escape }}" target="_blank" rel="noopener">{{ profile.label | escape }}</a>
+    {%- endfor %}
     <a href="{{ '/talks/' | relative_url }}">Talks</a>
   </nav>
   <p class="copyright">© Copyright {{ site.time | date: '%Y' }} Lorenzo Sileci. {{ site.footer_text | strip }}</p>
-  <p class="map-source"><a href="https://www.regione.toscana.it/-/banche-dati-cartografia-geologica" target="_blank" rel="noopener">Background: geological map from Regione Toscana · CC BY · colours customised by the author</a></p>
+  <p class="map-source">
+    <a href="https://www.regione.toscana.it/-/banche-dati-cartografia-geologica" target="_blank" rel="noopener"
+      >Background: geological map from Regione Toscana · CC BY · colours customised by the author</a
+    >
+  </p>
 </footer>

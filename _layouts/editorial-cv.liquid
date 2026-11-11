@@ -2,7 +2,9 @@
 layout: editorial
 ---
 <div class="cv-content">
-  <div class="cv-download"><a class="cv-download-button" href="{{ '/assets/pdf/lorenzo_cv.pdf' | relative_url }}" download="Lorenzo-Sileci-CV.pdf">Download CV</a></div>
+  <div class="cv-download">
+    <a class="cv-download-button" href="{{ '/assets/pdf/lorenzo_cv.pdf' | relative_url }}" download="Lorenzo-Sileci-CV.pdf">Download CV</a>
+  </div>
   {% for section in site.data.cv %}
     <section class="cv-section" aria-labelledby="cv-{{ section.id }}">
       <h2 id="cv-{{ section.id }}">{{ section.title | escape }}</h2>
@@ -13,8 +15,12 @@ layout: editorial
             <div class="cv-entry-body">
               <h3 class="cv-position">{{ entry.title | escape }}</h3>
               <p class="cv-institution">{{ entry.institution | escape }}</p>
-              {% if entry.department %}<p class="cv-department">{{ entry.department | escape }}</p>{% endif %}
-              {% for note in entry.notes %}<p class="cv-note">{{ note | escape }}</p>{% endfor %}
+              {% if entry.department %}
+                <p class="cv-department">{{ entry.department | escape }}</p>
+              {% endif %}
+              {% for note in entry.notes %}
+                <p class="cv-note">{{ note | escape }}</p>
+              {% endfor %}
             </div>
           </div>
         {% endfor %}

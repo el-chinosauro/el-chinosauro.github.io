@@ -1,89 +1,89 @@
 - title: Current Employment
   id: current-employment
   entries:
-  - dates: Sep 2025–present
-    title: Assistant Professor of Economics (tenure-track)
-    institution: IE University
-    department: School of Politics, Economics and Global Affairs
-  - dates: Feb 2025–present
-    title: Visiting Research Fellow
-    institution: London School of Economics and Political Science
-    department: Grantham Research Institute on Climate Change and the Environment
-  - dates: 2025–present
-    title: Affiliated Researcher
-    institution: Dragon Capital Chair Programme in Biodiversity Economics
+    - dates: Sep 2025–present
+      title: Assistant Professor of Economics (tenure-track)
+      institution: IE University
+      department: School of Politics, Economics and Global Affairs
+    - dates: Feb 2025–present
+      title: Visiting Research Fellow
+      institution: London School of Economics and Political Science
+      department: Grantham Research Institute on Climate Change and the Environment
+    - dates: 2025–present
+      title: Affiliated Researcher
+      institution: Dragon Capital Chair Programme in Biodiversity Economics
 - title: Education
   id: education
   entries:
-  - dates: 2018–2023
-    title: PhD in Environmental Economics
-    institution: London School of Economics and Political Science
-    notes:
-    - 'Thesis: “Causal Inference in Spatial Environmental Economics”'
-    - Examined by Prof. Paul Ferraro and Prof. Hendrik Wolff; awarded without corrections.
-  - dates: 2016–2017
-    title: MSc in Environmental Economics and Climate Change
-    institution: London School of Economics and Political Science
-    notes:
-    - Distinction
-  - dates: '2015'
-    title: Postgraduate Coursework Exchange Program
-    institution: University of Sydney
-    notes:
-    - Distinction
-  - dates: 2011–2014
-    title: BA in Economics and Trade
-    institution: University of Florence
-    notes:
-    - 110/110 cum laude
+    - dates: 2018–2023
+      title: PhD in Environmental Economics
+      institution: London School of Economics and Political Science
+      notes:
+        - "Thesis: “Causal Inference in Spatial Environmental Economics”"
+        - Examined by Prof. Paul Ferraro and Prof. Hendrik Wolff; awarded without corrections.
+    - dates: 2016–2017
+      title: MSc in Environmental Economics and Climate Change
+      institution: London School of Economics and Political Science
+      notes:
+        - Distinction
+    - dates: "2015"
+      title: Postgraduate Coursework Exchange Program
+      institution: University of Sydney
+      notes:
+        - Distinction
+    - dates: 2011–2014
+      title: BA in Economics and Trade
+      institution: University of Florence
+      notes:
+        - 110/110 cum laude
 - title: Prior Experience
   id: prior-experience
   entries:
-  - dates: Feb–Aug 2025
-    title: Postdoctoral Research Fellow
-    institution: University of Exeter
-    department: Department of Economics and LEEP · Dragon Capital Chair Programme in Biodiversity Economics
-  - dates: Feb 2023–Feb 2025
-    title: Postdoctoral Research Officer
-    institution: London School of Economics and Political Science
-    department: Grantham Research Institute on Climate Change and the Environment
-  - dates: Jan–Aug 2021
-    title: Research Associate
-    institution: European University Institute
-    department: Robert Schuman Centre for Advanced Studies · Global Governance Programme
-    notes:
-    - 'Project: Services and Economic Development in Africa'
+    - dates: Feb–Aug 2025
+      title: Postdoctoral Research Fellow
+      institution: University of Exeter
+      department: Department of Economics and LEEP · Dragon Capital Chair Programme in Biodiversity Economics
+    - dates: Feb 2023–Feb 2025
+      title: Postdoctoral Research Officer
+      institution: London School of Economics and Political Science
+      department: Grantham Research Institute on Climate Change and the Environment
+    - dates: Jan–Aug 2021
+      title: Research Associate
+      institution: European University Institute
+      department: Robert Schuman Centre for Advanced Studies · Global Governance Programme
+      notes:
+        - "Project: Services and Economic Development in Africa"
 - title: Awards and Grants
   id: awards-and-grants
   entries:
-  - dates: '2026'
-    title: Research Grant
-    institution: Ministerio de Ciencias, Innovacion y Universidades, Spain
-    notes:
-    - €46,000 · Co-PI
-  - dates: '2024'
-    title: XII Giorgio Rota Best Paper Award (1st prize)
-    institution: Centro Einaudi and Fondazione CRT
-    notes:
-    - €2,500
-  - dates: '2024'
-    title: EAERE Best Doctoral Dissertation Award
-    institution: European Association of Environmental and Resource Economists
-  - dates: 2018–2022
-    title: PhD Research Scholarship
-    institution: Economic and Social Research Council
-    notes:
-    - Full stipend
-  - dates: '2018'
-    title: Research Grant
-    institution: LSE South East Asia Centre
-    notes:
-    - £5,000 · Co-I
-  - dates: 2016–2017
-    title: Abroad Master Scholarship
-    institution: Regione Toscana
-    notes:
-    - €14,000
-  - dates: 2011–2014
-    title: Productivity and Merit Scholarship
-    institution: University of Florence
+    - dates: "2026"
+      title: Research Grant
+      institution: Ministerio de Ciencias, Innovacion y Universidades, Spain
+      notes:
+        - €46,000 · Co-PI
+    - dates: "2024"
+      title: XII Giorgio Rota Best Paper Award (1st prize)
+      institution: Centro Einaudi and Fondazione CRT
+      notes:
+        - €2,500
+    - dates: "2024"
+      title: EAERE Best Doctoral Dissertation Award
+      institution: European Association of Environmental and Resource Economists
+    - dates: 2018–2022
+      title: PhD Research Scholarship
+      institution: Economic and Social Research Council
+      notes:
+        - Full stipend
+    - dates: "2018"
+      title: Research Grant
+      institution: LSE South East Asia Centre
+      notes:
+        - £5,000 · Co-I
+    - dates: 2016–2017
+      title: Abroad Master Scholarship
+      institution: Regione Toscana
+      notes:
+        - €14,000
+    - dates: 2011–2014
+      title: Productivity and Merit Scholarship
+      institution: University of Florence

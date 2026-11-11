@@ -63,7 +63,8 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # Ruby 3.2.2 is available on this image; ubuntu-latest now uses Ubuntu 26.04.
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -80,7 +81,9 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Install ImageMagick 🖼️
-        run: sudo apt-get install -y imagemagick libwebp-dev
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libwebp-dev
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
