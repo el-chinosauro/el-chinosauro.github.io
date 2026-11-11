@@ -17,6 +17,7 @@ nav_group: teaching
 
   - Core module for BSc Applied Mathematics, BSc Economics, and BSc International Relations
   - _Topics_ – externalities and market failures; public goods; political economy; cost-benefit analysis; social insurance; inequality and redistribution; taxation.
+  - IE Excellence in Teaching Award (2026) - Student Evaluation 4.78/5
 
 <br>
 
@@ -32,7 +33,7 @@ nav_group: teaching
 
 <br>
 
-- **Autumn Term 2022: [GY476 Applied Geographical Information Systems](https://www.lse.ac.uk/resources/calendar2021-2022/courseGuides/GY/2021_GY476.htm)(Postgraduate)**
+- **Autumn Term 2022: [GY476 Applied Geographical Information Systems](https://www.lse.ac.uk/resources/calendar2021-2022/courseGuides/GY/2021_GY476.htm) (Postgraduate)**
 
   - Core module for MSc Geographic Data Science
   - _Topics_ - introduction to GIS and GIS data; digitising, geographic coordinate systems, georeferencing and editing; data query and transformation; remote sensed data and processing; geostatistical tools; network analysis; working with online mapping resources; webscraping and Google Earth Engine
