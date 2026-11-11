@@ -1,14 +1,15 @@
 ---
-layout: page
+layout: editorial
 permalink: /teaching/
 title: teaching
 description: drops in the ocean
 banner_image: sicilia.jpeg
 nav: true
-nav_order: 6
+nav_order: 3
+nav_group: teaching
 ---
 
-#### Lecturer (IE University)
+## Lecturer (IE University)
 
 <br>
 
@@ -19,13 +20,13 @@ nav_order: 6
 
 <br>
 
-#### Graduate Teaching Assistant (LSE)
+## Graduate Teaching Assistant (LSE)
 
 <br>
 
 * **Winter Term 2023: [GY222 Applied Environmental Economics](https://www.lse.ac.uk/resources/calendar2020-2021/courseGuides/GY/2020_GY222.htm) (Undergraduate)**
 
-    - Core module for BSc Environmental Policy with Economics 
+    - Core module for BSc Environmental Policy with Economics
     - _Topics_ - cost-benefit analysis and environmental valuation; stated and revealed preferences methods (and some behavioural considerations); sustainable development; biodiversity; climate change; energy; directed technological change and green innovation; health and the environment.
     - Student Evaluation: 4.4/5
 
@@ -36,12 +37,3 @@ nav_order: 6
     - Core module for MSc Geographic Data Science
     - _Topics_ - introduction to GIS and GIS data; digitising, geographic coordinate systems, georeferencing and editing; data query and transformation; remote sensed data and processing; geostatistical tools; network analysis; working with online mapping resources; webscraping and Google Earth Engine
     - Student Evaluation: 5/5
-
-<br>
-
-#### Dissertation Supervision
-
-<br>
-
-* **2019-2023:** Postgraduate methodological supervision (MSc Environmental Economics and Climate Change)
-* **2019:** Undergraduate methodological supervision (BSc Geography with Economics)

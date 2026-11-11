@@ -1,0 +1,21 @@
+- icon: email
+  label: Email Lorenzo Sileci
+  url: mailto:lorenzo.sileci@ie.edu
+- icon: cv
+  label: Download current CV
+  url: /assets/pdf/lorenzo_cv.pdf
+- icon: orcid
+  label: ORCID
+  url: https://orcid.org/0000-0003-4110-9427
+- icon: google-scholar
+  label: Google Scholar
+  url: https://scholar.google.com/citations?user=X1mSLvcAAAAJ
+- icon: github
+  label: GitHub
+  url: https://github.com/el-chinosauro
+- icon: x
+  label: X
+  url: https://twitter.com/el_chinosauro
+- icon: bluesky
+  label: Bluesky
+  url: https://bsky.app/profile/elchinosauro.bsky.social

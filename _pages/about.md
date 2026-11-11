@@ -1,21 +1,19 @@
 ---
-layout: about
-title: about
+layout: editorial-home
+title: home
 permalink: /
-subtitle: 
+subtitle: null
 banner_image: sicilia.jpeg
-
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
-
+  image_circular: true
+news: false
+selected_papers: false
+social: false
+nav: false
 ---
 
-I am an **Assistant Professor of Economics** at [IE University (Madrid)](https://www.ie.edu), within the [School of Politics, Economics and Global Affairs](https://www.ie.edu/school-politics-economics-global-affairs/). I am also affiliated with the [Grantham Research Institute on Climate Change and the Environment](https://www.lse.ac.uk/granthaminstitute/) (LSE), as a **Visiting Research Fellow**, and with the [Dragon Capital Chair Programme in Biodiversity Economics](https://www.dragonchair.org.uk/). 
+I am an **Assistant Professor of Economics** at [IE University (Madrid)](https://www.ie.edu), within the [School of Politics, Economics and Global Affairs](https://www.ie.edu/school-politics-economics-global-affairs/). I am also affiliated with the [Grantham Research Institute on Climate Change and the Environment](https://www.lse.ac.uk/granthaminstitute/) (LSE), as a **Visiting Research Fellow**, and with the [Dragon Capital Chair Programme in Biodiversity Economics](https://www.dragonchair.org.uk/).
 
-My work combines **environmental and development economics**. I use applied econometrics, georeferenced data and satellite imagery to causally examine **complex interactions between the economy and the biosphere**. My research focusses on **forests, carbon and biodiversity additionality**, and on the interplay between **climate mitigation** and **economic development**. I am also interested in issues of **environmental justice and distribution**, and in the role of **polluting industries** in shaping environment-development trade-offs.
+My work combines **environmental and development economics** to examine causal interactions between the economy and the biosphere. Areas of focus include the economics of biodiversity and the relationship between externalities, economic development and environmental justice.

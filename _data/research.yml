@@ -1,0 +1,82 @@
+palmer_2024:
+  figure: /assets/img/research/palmer_2024.webp
+  thumbnail: /assets/img/research/palmer_2024-thumb.webp
+  caption: England · Bird abundance and biodiversity
+groom_carbon_2022:
+  figure: /assets/img/research/groom_carbon_2022.webp
+  thumbnail: /assets/img/research/groom_carbon_2022-thumb.webp
+  caption: Indonesia’s 2011 forest moratorium
+  coverage:
+  - outlet: CNN
+    url: https://localnews8.com/news/national-world/cnn-world/2022/01/26/over-10-years-and-1bn-on-the-table-yet-little-was-achieved-in-a-historic-forests-deal-study-says/
+    tooltip: CNN report by Rachel Ramirez, republished by KIFI
+    date: '2022-01-26'
+    verification: CNN Newsource byline and full syndicated report verified in KIFI HTML. The report identifies
+      the PNAS study and interviews Groom and Palmer. A second CNN syndication is available at https://www.wral.com/archive/20100005/.
+      The original CNN URL could not be established; link to the verified syndicated copy.
+  - outlet: Mongabay
+    url: https://news.mongabay.com/2022/03/study-indonesias-forest-clearing-moratorium-underdelivered-but-so-did-donors/
+    verification: Mongabay's indexed article explicitly cites Groom, Palmer and Sileci (2022), DOI 10.1073/pnas.2102613119.
+      The source discusses the moratorium findings and donor payments. Direct tool fetch returned 403;
+      the indexed original article supplied the evidence.
+  - outlet: Climate Home News
+    url: https://www.climatechangenews.com/2022/01/24/norway-underpaid-indonesia-forest-protection-results-study-argues/
+    date: '2022-01-24'
+    verification: Original Climate Home News article by Chloé Farand read directly; reports the PNAS study,
+      its estimates, and an interview with Ben Groom.
+bates_global_2021:
+  figure: /assets/img/research/bates_global_2021.webp
+  thumbnail: /assets/img/research/bates_global_2021-thumb.webp
+  caption: Empirical responses during lockdown
+  coverage:
+  - outlet: The New York Times
+    url: https://www.nytimes.com/2022/07/16/science/pandemic-nature-anthropause.html
+    date: '2022-07-16'
+    verification: 'NLM Behind the Headlines explicitly associates Emily Anthes''s NYT article with this
+      exact Bates et al. paper, DOI 10.1016/j.biocon.2021.109175. Source: https://www.ncbi.nlm.nih.gov/search/research-news/16641/.
+      The NYT page itself was unavailable to the web tool.'
+amador-jimenez_unintended_2020:
+  figure: /assets/img/research/amador-jimenez_unintended_2020.webp
+  thumbnail: /assets/img/research/amador-jimenez_unintended_2020-thumb.webp
+  caption: Colombia fire hotspots, March–May 2020
+  coverage:
+  - outlet: VICE News
+    kind: media
+    url: https://www.vice.com/en/article/the-end-of-colombias-civil-war-had-an-unintended-effect-deforestation/
+    tooltip: VICE News coverage
+    date: '2020-09-25'
+    verification: Direct article link points to the Colombia DOI.
+    reference_doi: 10.1007/s10640-020-00501-5
+pagel_sileci_2024:
+  figure: /assets/img/research/pagel_sileci_2024.webp
+  thumbnail: /assets/img/research/pagel_sileci_2024-thumb.webp
+  caption: NGP timing by treatment pool
+  coverage:
+  - outlet: VoxDev
+    url: https://voxdev.org/topic/energy-environment/how-philippines-sequestered-carbon-while-reducing-poverty-and-creating
+    tooltip: How the Philippines sequestered carbon while reducing poverty and creating jobs
+  - outlet: World Bank
+    url: https://blogs.worldbank.org/en/impactevaluations/rooting-out-poverty--the-socioeconomic-co-benefits-of-large-scal
+    tooltip: 'Rooting out poverty: The socioeconomic co-benefits of large-scale tree planting · Jeffrey
+      Pagel · 11 November 2024'
+sileci_air_2023:
+  figure: /assets/img/research/sileci_air_2023.webp
+  thumbnail: /assets/img/research/sileci_air_2023-thumb.webp
+  caption: Effects of the carbon tax on PM2.5
+  award: XII Giorgio Rota Best Paper Award · 1st prize
+nigeria_oil_spills:
+  figure: /assets/img/research/nigeria_oil_spills.webp
+  thumbnail: /assets/img/research/nigeria_oil_spills-thumb.webp
+  caption: Distribution of oil spills in Nigeria
+mangrove_fishery:
+  figure: /assets/img/research/mangrove_fishery.webp
+  thumbnail: /assets/img/research/mangrove_fishery-thumb.webp
+  caption: Philippines · Mangrove planting by year
+overlapping_policy:
+  figure: /assets/img/research/overlapping_policy.webp
+  thumbnail: /assets/img/research/overlapping_policy-thumb.webp
+  caption: Protected and Production Forest
+tree_planting_biodiversity:
+  figure: /assets/img/research/tree_planting_biodiversity.webp
+  thumbnail: /assets/img/research/tree_planting_biodiversity-thumb.webp
+  caption: NGP roll-out by year

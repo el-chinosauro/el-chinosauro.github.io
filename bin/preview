@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+# Use the Ruby version used by this site's GitHub Pages workflow.
+if [[ -x "$HOME/.rbenv/versions/3.2.2/bin/ruby" ]]; then
+  export PATH="$HOME/.rbenv/versions/3.2.2/bin:$PATH"
+fi
+# The retained template notebook example uses this existing Jupyter installation.
+if [[ -x /opt/anaconda3/bin/jupyter ]]; then
+  export PATH="$PATH:/opt/anaconda3/bin"
+fi
+exec bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload "$@"

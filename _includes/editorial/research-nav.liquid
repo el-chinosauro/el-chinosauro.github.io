@@ -1,0 +1,11 @@
+{% if page.nav_group == 'publications' %}
+<nav class="research-nav" aria-label="Publication categories">
+  <a href="{{ '/publications/' | relative_url }}"{% if page.research_group == 'publications' %} aria-current="page"{% endif %}>peer reviewed</a>
+  <a href="{{ '/policy-reports/' | relative_url }}"{% if page.research_group == 'outreach' %} aria-current="page"{% endif %}>policy reports</a>
+</nav>
+{% else %}
+<nav class="research-nav" aria-label="Current research categories">
+  <a href="{{ '/current-research/' | relative_url }}"{% if page.research_group == 'working' %} aria-current="page"{% endif %}>working papers</a>
+  <a href="{{ '/projects/' | relative_url }}"{% if page.research_group == 'wip' %} aria-current="page"{% endif %}>work in progress</a>
+</nav>
+{% endif %}

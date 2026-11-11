@@ -1,0 +1,129 @@
+figures:
+- paper_key: palmer_2024
+  source_export: birds-2007-map.png
+  source_sha256: d8b69ad7097697b69fbc47fad93c5e0f4de033e0b66690a20e171f1cebebc126
+  public_figure: /assets/img/research/palmer_2024.webp
+  dimensions:
+  - 1500
+  - 1154
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: groom_carbon_2022
+  source_export: indonesia-figure-s2.png
+  source_sha256: 44a64c29a2ba72c36801e88838c4c2d4cb066db9b76c555c2a5813c32b96452c
+  public_figure: /assets/img/research/groom_carbon_2022.webp
+  dimensions:
+  - 1500
+  - 1061
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: bates_global_2021
+  source_export: covid-figure5-uncaptioned.png
+  source_sha256: 8a9ceb22909d6a7cf6b2fae69b7165ed91e448efcb8350b3fe6109c299775882
+  public_figure: /assets/img/research/bates_global_2021.webp
+  dimensions:
+  - 1216
+  - 1500
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: amador-jimenez_unintended_2020
+  source_export: colombia-figure1.png
+  source_sha256: 83d7ede838872ed8b92287f89ea2b16979a1501b89ece2c1a688b9802cca2c1b
+  public_figure: /assets/img/research/amador-jimenez_unintended_2020.webp
+  dimensions:
+  - 1500
+  - 1061
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: pagel_sileci_2024
+  source_export: wp410-figure1.png
+  source_sha256: ba4a79a56317097e5e6e43403baf5013bbf55b491c47662f8e9f86cb9bec3753
+  public_figure: /assets/img/research/pagel_sileci_2024.webp
+  dimensions:
+  - 1219
+  - 1500
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: sileci_air_2023
+  source_export: bc-robustness-v18.png
+  source_sha256: 0fd4bbf8aba390c3ea0fe66f6b11e3217868a534c7df371da92405a30174626f
+  public_figure: /assets/img/research/sileci_air_2023.webp
+  dimensions:
+  - 1500
+  - 1050
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: nigeria_oil_spills
+  source_export: nigeria-population-spills-v18.png
+  source_sha256: 20fbc75a91ecfc3933e84b9a4cd6858b2db698ba833c638976eb8972b82f3586
+  public_figure: /assets/img/research/nigeria_oil_spills.webp
+  dimensions:
+  - 1500
+  - 800
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: mangrove_fishery
+  source_export: mangrove-treatment-timing-v18.png
+  source_sha256: 1be04950424765b38d10e190b4504dd23c6d29f459044cf5852ab1de75c9f04f
+  public_figure: /assets/img/research/mangrove_fishery.webp
+  dimensions:
+  - 1500
+  - 1200
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: overlapping_policy
+  source_export: indonesia-overlapping-policy-v18.png
+  source_sha256: 626f064064b74e96222987a77c14d24b06d6ef5c46ec1d743cf72c8002b0b371
+  public_figure: /assets/img/research/overlapping_policy.webp
+  dimensions:
+  - 1500
+  - 533
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+- paper_key: tree_planting_biodiversity
+  source_export: tree-planting-village-map-v19.png
+  source_sha256: 16203e28ca0e1efb7fcf5e3ad1709ab2861d933e6335744ff3ee645010324858
+  public_figure: /assets/img/research/tree_planting_biodiversity.webp
+  dimensions:
+  - 1219
+  - 1500
+  processing: Full scientific figure; original colours; lossless WebP. Separate proportionally reduced thumbnail.
+geology:
+  provider: Regione Toscana, DB Geologico
+  source: https://www.regione.toscana.it/-/banche-dati-cartografia-geologica
+  licence: CC BY
+  processing: Original geological geometry; owner-approved custom colours; no labels. Extent includes Florence,
+    Scandicci and Pontassieve.
+coverage_sources:
+  groom_carbon_2022:
+  - outlet: CNN
+    url: https://localnews8.com/news/national-world/cnn-world/2022/01/26/over-10-years-and-1bn-on-the-table-yet-little-was-achieved-in-a-historic-forests-deal-study-says/
+    tooltip: CNN report by Rachel Ramirez, republished by KIFI
+    date: '2022-01-26'
+    verification: CNN Newsource byline and full syndicated report verified in KIFI HTML. The report identifies the
+      PNAS study and interviews Groom and Palmer. A second CNN syndication is available at https://www.wral.com/archive/20100005/.
+      The original CNN URL could not be established; link to the verified syndicated copy.
+  - outlet: Mongabay
+    url: https://news.mongabay.com/2022/03/study-indonesias-forest-clearing-moratorium-underdelivered-but-so-did-donors/
+    verification: Mongabay's indexed article explicitly cites Groom, Palmer and Sileci (2022), DOI 10.1073/pnas.2102613119.
+      The source discusses the moratorium findings and donor payments. Direct tool fetch returned 403; the indexed
+      original article supplied the evidence.
+  - outlet: Climate Home News
+    url: https://www.climatechangenews.com/2022/01/24/norway-underpaid-indonesia-forest-protection-results-study-argues/
+    date: '2022-01-24'
+    verification: Original Climate Home News article by Chloé Farand read directly; reports the PNAS study, its
+      estimates, and an interview with Ben Groom.
+  bates_global_2021:
+  - outlet: The New York Times
+    url: https://www.nytimes.com/2022/07/16/science/pandemic-nature-anthropause.html
+    date: '2022-07-16'
+    verification: 'NLM Behind the Headlines explicitly associates Emily Anthes''s NYT article with this exact Bates
+      et al. paper, DOI 10.1016/j.biocon.2021.109175. Source: https://www.ncbi.nlm.nih.gov/search/research-news/16641/.
+      The NYT page itself was unavailable to the web tool.'
+  amador-jimenez_unintended_2020:
+  - outlet: VICE News
+    kind: media
+    url: https://www.vice.com/en/article/the-end-of-colombias-civil-war-had-an-unintended-effect-deforestation/
+    tooltip: VICE News coverage
+    date: '2020-09-25'
+    verification: Direct article link points to the Colombia DOI.
+    reference_doi: 10.1007/s10640-020-00501-5
+  pagel_sileci_2024:
+  - outlet: VoxDev
+    url: https://voxdev.org/topic/energy-environment/how-philippines-sequestered-carbon-while-reducing-poverty-and-creating
+    tooltip: How the Philippines sequestered carbon while reducing poverty and creating jobs
+  - outlet: World Bank
+    url: https://blogs.worldbank.org/en/impactevaluations/rooting-out-poverty--the-socioeconomic-co-benefits-of-large-scal
+    tooltip: 'Rooting out poverty: The socioeconomic co-benefits of large-scale tree planting · Jeffrey Pagel ·
+      11 November 2024'

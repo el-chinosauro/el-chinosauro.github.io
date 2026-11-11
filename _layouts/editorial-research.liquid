@@ -1,0 +1,6 @@
+---
+layout: editorial
+---
+{% include editorial/research-nav.liquid %}
+<h2 class="visually-hidden">{% if page.research_group == 'publications' %}Peer-reviewed publications{% elsif page.research_group == 'working' %}Working papers{% else %}Work in progress{% endif %}</h2>
+{% for key in site.data.research_groups[page.research_group] %}{% assign paper = site.data.research_entries[key] %}{% include editorial/paper.liquid paper=paper %}{% endfor %}

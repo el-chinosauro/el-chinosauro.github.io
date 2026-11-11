@@ -1,0 +1,16 @@
+---
+layout: editorial
+---
+{% include editorial/research-nav.liquid %}
+<h2 class="visually-hidden">Outreach</h2>
+{% for item in site.data.outreach %}
+<article class="paper policy-report">
+  <a class="policy-logo" href="{{ item.url | escape }}" target="_blank" rel="noopener" aria-label="{{ item.link_label }} on {{ item.publisher | escape }}"><img src="{{ item.logo | relative_url }}" alt="{{ item.logo_alt | escape }}" loading="lazy" width="240" height="164"></a>
+  <div class="paper-body">
+    <h3><a href="{{ item.url | escape }}" target="_blank" rel="noopener">{{ item.title | escape }}</a></h3>
+    <p class="paper-authors">{{ item.authors | escape }}</p>
+    <p class="paper-journal policy-outlet"><em>{{ item.publisher | escape }} · <time datetime="{{ item.date }}">{{ item.date_label }}</time></em></p>
+    <div class="paper-links"><a href="{{ item.url | escape }}" target="_blank" rel="noopener">{{ item.link_label }} <span aria-hidden="true">↗</span></a></div>
+  </div>
+</article>
+{% endfor %}

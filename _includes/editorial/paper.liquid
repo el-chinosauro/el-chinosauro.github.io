@@ -1,0 +1,43 @@
+{% assign paper = include.paper %}
+<article class="paper{% if paper.project %} project{% endif %}{% unless paper.figure %} no-figure{% endunless %}" data-paper="{{ paper.key | escape }}">
+  {% if paper.figure %}
+    <button class="figure-button" data-figure data-full-figure="{{ paper.figure | relative_url }}" aria-label="Enlarge {{ paper.caption | escape }}">
+      <img src="{{ paper.thumbnail | relative_url }}" alt="{{ paper.caption | escape }}" loading="lazy" width="640" height="640">
+      <span>{{ paper.caption | escape }} <span aria-hidden="true">↗</span></span>
+    </button>
+  {% endif %}
+  <div class="paper-body">
+    {% assign paper_link = paper.link %}
+    {% unless paper_link contains '://' %}{% assign paper_link = paper_link | relative_url %}{% endunless %}
+    <h3>{% if paper.link %}<a href="{{ paper_link | escape }}" target="_blank" rel="noopener">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
+    <div class="paper-authors">
+      {% if paper.author_note %}
+        {{ paper.author_note | escape }}
+      {% elsif paper.authors.size > 5 %}
+        {{ paper.authors | slice: 0, 3 | join: ', ' | escape }}
+        <details class="authors"><summary>All {{ paper.authors.size }} authors</summary><p>{{ paper.authors | join: ', ' | escape }}</p></details>
+      {% else %}
+        {{ paper.authors | join: ', ' | escape }}
+      {% endif %}
+    </div>
+    {% if paper.status %}
+      <p class="paper-status">{{ paper.status | escape }}</p>
+    {% elsif paper.journal %}
+      <p class="paper-journal"><em>{{ paper.journal | escape }}</em><span class="paper-year"> · {{ paper.year }}</span></p>
+    {% endif %}
+    {% if paper.link or paper.doi or paper.draft_request %}
+      <div class="paper-links">
+        {% if paper.link %}<a href="{{ paper_link | escape }}" target="_blank" rel="noopener">Read paper <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if paper.doi %}<a href="https://doi.org/{{ paper.doi | escape }}" target="_blank" rel="noopener">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+        {% if paper.draft_request %}{% capture subject %}Draft request: {{ paper.title }}{% endcapture %}<a href="mailto:{{ site.email }}?subject={{ subject | uri_escape }}">Draft available upon request</a>{% endif %}
+      </div>
+    {% endif %}
+    {% if paper.abstract %}<details><summary>Abstract</summary><p>{{ paper.abstract | escape }}</p></details>{% endif %}
+    {% if paper.bibtex %}<details><summary>BibTeX</summary><pre>{{ paper.bibtex | escape }}</pre></details>{% endif %}
+    {{ paper.body_html }}
+    {% if paper.award %}<p class="award"><span class="talk-invited award-badge">{{ paper.award | escape }}</span></p>{% endif %}
+    {% if paper.coverage %}
+      <nav class="paper-coverage" aria-label="Media coverage"><span>coverage</span>{% for mention in paper.coverage %}<a href="{{ mention.url | escape }}" target="_blank" rel="noopener" title="{{ mention.tooltip | default: mention.outlet | escape }}">{{ mention.outlet | escape }}</a>{% endfor %}</nav>
+    {% endif %}
+  </div>
+</article>

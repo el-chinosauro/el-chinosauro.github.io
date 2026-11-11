@@ -1,16 +1,11 @@
 ---
-layout: page
+layout: editorial-research
 permalink: /publications/
-title: "publications"
+title: publications
 description: articles that have found a home
 banner_image: sicilia.jpeg
 nav: true
-nav_order: 2
+nav_order: 1
+nav_group: publications
+research_group: publications
 ---
-
-<!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography -f papers%}
-
-</div>

@@ -1,0 +1,18 @@
+- title: home
+  url: /
+  key: home
+- title: publications
+  url: /publications/
+  key: publications
+- title: current research
+  url: /current-research/
+  key: current-research
+- title: teaching
+  url: /teaching/
+  key: teaching
+- title: talks
+  url: /talks/
+  key: talks
+- title: cv
+  url: /cv/
+  key: cv

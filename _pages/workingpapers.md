@@ -1,16 +1,12 @@
 ---
-layout: page
+layout: editorial-research
 permalink: /working papers/
-title: working papers
+title: current research
 description: articles looking for a home
 banner_image: sicilia.jpeg
-nav: true
+nav: false
 nav_order: 2
+nav_group: current-research
+research_group: working
+canonical_path: /current-research/
 ---
-
-<!-- _pages/workingpapers.md -->
-<div class="publications">
-
-{% bibliography -f working %}
-
-</div>
