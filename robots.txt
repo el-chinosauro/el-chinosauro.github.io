@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://el-chinosauro.github.io/sitemap.xml
+Sitemap: https://www.lorenzosileci.com/sitemap.xml
