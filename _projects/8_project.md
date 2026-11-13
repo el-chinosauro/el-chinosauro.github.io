@@ -4,7 +4,7 @@ nav_group: current-research
 title: Oil Spills, Water Networks and Local Economic Development in Nigeria
 description: (with Elena Perra and Marco Sanfilippo)
 img: /assets/img/research/nigeria_oil_spills-thumb.webp
-importance: 4
+importance: 1
 category: work
 related_publications: false
 editorial_key: nigeria_oil_spills

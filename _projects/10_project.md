@@ -4,7 +4,7 @@ nav_group: current-research
 title: The Ecological-Economic Response of the Fishery to Ecosystem Restoration
 description: (with Jeff Pagel and Charles Palmer)
 img: /assets/img/research/mangrove_fishery-thumb.webp
-importance: 1
+importance: 4
 category: work
 related_publications: false
 editorial_key: mangrove_fishery
