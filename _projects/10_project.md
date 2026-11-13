@@ -8,7 +8,7 @@ importance: 1
 category: work
 related_publications: false
 editorial_key: mangrove_fishery
-research_group: wip
+research_group: working
 draft_request: true
 abstract_from_content: true
 ---

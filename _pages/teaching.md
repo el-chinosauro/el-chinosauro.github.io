@@ -18,6 +18,7 @@ nav_group: teaching
   - Core module for BSc Applied Mathematics, BSc Economics, and BSc International Relations
   - _Topics_ – externalities and market failures; public goods; political economy; cost-benefit analysis; social insurance; inequality and redistribution; taxation.
   - IE Excellence in Teaching Award (2026) - Student Evaluation 4.78/5
+  - IE School of Science & Technology Most Engaged Professor Award (2026)
 
 <br>
 
